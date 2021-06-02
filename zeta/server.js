@@ -21,8 +21,22 @@ client.on("message", (message) => {
         case "nadie":
             message.channel.send("A nadie le importa * canche en la oscuridad *");
         break;
-        
-    };
+        case "date":
+            message.channel.send("https://pbs.twimg.com/media/DGQi_bWUwAE7JUS.jpg");
+        break;
+        case "ibu?":
+            message.channel.send("I B U ");
+            setTimeout(()=>{
+                message.channel.send("la I de ijoh de mil PU74");
+            },1*1000);
+            setTimeout(()=>{
+                message.channel.send("la B de buscate un laburo");
+            },2.5*1000);
+            setTimeout(()=>{
+                message.channel.send("y la U de la uuuuu la PU74 que te remil pario")
+            },5*1000);
+        break;
+        };
 
 //---------------------FUNCIONES---------------------
     function yga(){
