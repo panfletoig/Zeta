@@ -1,8 +1,9 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
+const clave = require('./clave');
 
 client.on("ready", () => {
-    console.log(`LINK STATO, V.0.0.0`);
+    console.log(`LINK STATO, V.1.0.0`);
 });
  
 
@@ -38,5 +39,4 @@ client.on("message", (message) => {
     };
 //--------------------------------------------------
 });
- 
-client.login("ODQ5Mzg4OTczMzg2MTA0ODYy.YLadIA.avCiIzTY98YW84hBY2CJuoGNOEM");
+client.login(clave.clave);
